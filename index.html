@@ -27,8 +27,29 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="program.html">Program</a></li>
-                        <li class="nav-item"><a class="nav-link" href="presenters.html">Presenters</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Program
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="program.html">Program at a Glance</a></li>
+                              <li><a class="dropdown-item" href="program.html">Keynote Speakers</a></li>
+                              <li><a class="dropdown-item" href="program.html">Social Events</a></li>
+                              <li><a class="dropdown-item" href="program.html">Technical Tours</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Presenters
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="presenters.html">Presenters</a></li>
+                              <li><a class="dropdown-item" href="presenters.html">Panelists</a></li>
+                              <li><a class="dropdown-item" href="presenters.html">Presentation Submission</a></li>
+                            </ul>
+                        </li>
+
                         <li class="nav-item"><a class="nav-link" href="registration.html">Registration</a></li>
                         <li class="nav-item"><a class="nav-link" href="exhibition.html">Exhibition</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -39,9 +60,15 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex flex-column h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <img src="./assets/img/un.png" id="mainunlogo">
+                <div class="container px-4 px-lg-5 d-flex flex-row justify-content-center align-self-start">
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/img/un.png" id="mainunlogo">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <img src="./assets/img/dst.png" id="maindstlogo">
+                    </div>
                 </div>
+                
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">United Nations World Geospatial Information Congress 2022</h1>
