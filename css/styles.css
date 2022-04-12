@@ -11740,6 +11740,13 @@ body {
   -webkit-filter: drop-shadow(0px 0px 5px white);
   filter: drop-shadow(0px 0px 5px white);
 }
+#unwgiclogo {
+  max-width: 6em;
+  display: block;
+  margin: 1em 4em;
+  -webkit-filter: drop-shadow(0px 0px 5px white);
+  filter: drop-shadow(0px 0px 5px white);
+}
 #maindstlogo {
   max-width: 14em;
   display: block;
